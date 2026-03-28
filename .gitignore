@@ -1,0 +1,42 @@
+# --- General / OS ---
+.DS_Store
+.env
+*.local
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Dependencies ---
+node_modules/
+**/node_modules/
+
+# --- Client (Vite) Specific ---
+client/dist/
+client/dist-ssr/
+client/logs/
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/pnpm-debug.log*
+
+# --- Web3 (Solidity/Hardhat) Specific ---
+web3/artifacts/
+web3/cache/
+web3/coverage/
+web3/coverage.json
+web3/typechain/
+web3/typechain-types/
+
+# --- Logs & Debugging ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
