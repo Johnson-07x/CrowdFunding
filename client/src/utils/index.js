@@ -1,5 +1,11 @@
 export const daysLeft = (deadline) => {
-  const difference = new Date(deadline).getTime() - Date.now();
+  // deadline is a Unix timestamp in seconds from the contract
+  // Convert to milliseconds by multiplying by 1000
+  const deadlineMs =
+    typeof deadline === "number"
+      ? deadline * 1000
+      : new Date(deadline).getTime();
+  const difference = deadlineMs - Date.now();
   const remainingDays = difference / (1000 * 3600 * 24);
 
   return remainingDays.toFixed(0);
