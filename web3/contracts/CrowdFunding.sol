@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @title The crowdfunding platform
-/// @author Hassan shakil
+/// @author Johnson A J
 /// @dev This is a crowdfunding smart contract.
 contract CrowdFunding is Ownable {
     struct FAQ {

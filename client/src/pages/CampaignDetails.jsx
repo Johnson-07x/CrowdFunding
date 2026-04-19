@@ -207,11 +207,11 @@ const CampaignDetails = () => {
           </div>
           <div className="flex w-full flex-col">
             <Tabs variant="underlined" size="lg" aria-label="Options">
-              <Tab key="story" title="Story">
+              <Tab key="story" title="Description">
                 <Card>
                   <CardBody>
                     <h4 className="font-epilogue font-semibold text-[18px] uppercase">
-                      Story
+                      Description
                     </h4>
                     <div className="mt-[20px]">
                       <p className="font-epilogue font-normal text-[16px] text-[#808191]">
