@@ -5,7 +5,7 @@ import { useStateContext } from "../context";
 import { CustomButton } from "./";
 import { menu, search, thirdweb } from "../assets";
 import { navlinks } from "../constants";
-import BlockFundLogo from "../assets/BlockFundLogo.png";
+import BlockFundLogo from "../assets/boosty.png";
 
 const Navbar = ({ setSearchQuery }) => {
   const navigate = useNavigate();
