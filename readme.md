@@ -40,7 +40,7 @@ To get started with Block Fund, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/hassan4702/block-fund.git
+    git clone https://github.com/Johnson-07x/CrowdFunding.git
     cd block-fund
     ```
 
