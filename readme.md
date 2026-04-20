@@ -66,7 +66,7 @@ To get started with Block Fund, follow these steps:
 ## Project Structure
 
 ```
-block-fund/
+CrowdFunding/
 ├── public/
 │   ├── index.html
 │   └── ...
